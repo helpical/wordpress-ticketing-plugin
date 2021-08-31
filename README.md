@@ -2,7 +2,7 @@
 
 # Introduction
 Helpical is a commercial SaaS/Self-Hosted helpdesk and ticketing system written by Parnia Software Solutions. 
-You can use our provided source codes here in this repository to connect your Wordpress websites to Helpical Ticketing System v1.x.
+You can use our provided source codes here in this repository to connect your Wordpress websites to Helpical Ticketing System v1.x
 
 ### Steps to use this plugin
 1. Upload the plugin ZIP file on the server of your Wordpress website (wp-contents/plugins directory) or use the Wordpress plugin management tool.
