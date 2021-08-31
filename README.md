@@ -20,7 +20,7 @@ By default, you don't need to change anything in the codes. However, if you woul
 3. Compile the CSS codes in `src/scss` by running `gulp scss` command.
 
 ### Helpical RESTful APIs documents
-If you need to modify the behavior of this Wordpress plugin by your needs, we invite you to visit https://apidocs.helpical.com to get familiar with the structure of Helpical RESTful APIS.
+If you need to modify the behavior of this Wordpress plugin by your needs, we invite you to visit https://apidocs.helpical.com to get familiar with the structure of Helpical RESTful APIs.
 
 ### Support & bug reporting
 If you encounter with any possible issue and need our support services, or if you find any bug in this plugin, please contact us via admin@helpical.com.
