@@ -32,5 +32,5 @@ Thanks with all of its contibutors:
 
 - <a href="https://github.com/mbsaberi">Mohammad Saberi</a> (Helpical RESTful APIs developer)
 - <a href="https://github.com/mohamad-momeni">Mohammad Momeni</a> (Wordpress plugin back-end developer)
-- Alireza Arianpoor (Wordpress plugin front-end developer)
+- <a href="https://github.com/AlirezaAriyanpour">Alireza Ariyanpoor</a> (Wordpress plugin front-end developer)
 - Ali Sheikhzadeh (Wordpress pluging UI/UX designer)
