@@ -1,0 +1,22 @@
+// Icon Sizes
+// -------------------------
+// makes the font 33% larger relative to the icon container
+.#{$prefix}icon-lg {
+    font-size: (4em / 3);
+    line-height: (3em / 4);
+    vertical-align: -.0667em;
+}
+
+.#{$prefix}icon-xs {
+    font-size: .75em;
+}
+
+.#{$prefix}icon-sm {
+    font-size: .875em;
+}
+
+@for $i from 1 through 10 {
+    .#{$prefix}icon-#{$i}x {
+        font-size: $i * 1em;
+    }
+}

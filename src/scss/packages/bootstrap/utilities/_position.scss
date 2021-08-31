@@ -1,0 +1,7 @@
+// stylelint-disable declaration-no-important
+// Common values
+@each $position in $positions {
+    .#{$prefix}position-#{$position} {
+        position: $position !important;
+    }
+}

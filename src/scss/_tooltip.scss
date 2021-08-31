@@ -1,0 +1,15 @@
+.#{$prefix}tooltip {
+    &-text {
+        position: absolute;
+        z-index: 100;
+        top: -25px;
+        white-space: nowrap;
+        transform: translateX(70%);
+        background-color: white;
+        color: #808080;
+        padding: 0.1rem 0.5rem;
+        box-shadow: 0px 2px 5px #00000029;
+        border-radius: 4px;
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,52 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+        .#{$prefix}text#{$infix}-left {
+            text-align: left !important;
+        }
+        .#{$prefix}text#{$infix}-right {
+            text-align: right !important;
+        }
+        .#{$prefix}text#{$infix}-center {
+            text-align: center !important;
+        }
+    }
+}
+
+// Weight and italics
+.#{$prefix}font-weight-light {
+    font-weight: $font-weight-light !important;
+}
+
+.#{$prefix}font-weight-lighter {
+    font-weight: $font-weight-lighter !important;
+}
+
+.#{$prefix}font-weight-normal {
+    font-weight: $font-weight-normal !important;
+}
+
+.#{$prefix}font-weight-bold {
+    font-weight: $font-weight-bold !important;
+}
+
+.#{$prefix}font-weight-bolder {
+    font-weight: $font-weight-bolder !important;
+}
+
+.#{$prefix}font-italic {
+    font-style: italic !important;
+}
+
+// Contextual colors
+.#{$prefix}text-white {
+    color: $white !important;
+}
+
+.#{$prefix}text-muted {
+    color: #747474 !important;
+}
+
+.#{$prefix}text-decoration-none {
+    text-decoration: none !important;
+}

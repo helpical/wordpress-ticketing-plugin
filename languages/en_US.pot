@@ -1,0 +1,333 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Helpical\n"
+"POT-Creation-Date: 2021-04-25 12:06+0430\n"
+"PO-Revision-Date: 2021-03-15 13:39+0330\n"
+"Last-Translator: \n"
+"Language-Team: info@parniagroup.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../inc\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin.php:3
+msgid "Settings"
+msgstr ""
+
+#: admin/admin.php:13
+msgid "Helpical"
+msgstr ""
+
+#: admin/admin.php:17
+msgid "Helpical settings"
+msgstr ""
+
+#: admin/admin.php:18
+msgid "Shortcode settings"
+msgstr ""
+
+#: admin/admin.php:45
+msgid "API secret key"
+msgstr ""
+
+#: admin/admin.php:46
+msgid "API URL"
+msgstr ""
+
+#: admin/admin.php:47
+msgid "Color"
+msgstr ""
+
+#: admin/admin.php:48
+msgid "Real-time configuration synchronization"
+msgstr ""
+
+#: admin/admin.php:57
+msgid ""
+"There are some problems on your helpical system please check the parameters "
+"or contact helpical support"
+msgstr ""
+
+#: admin/admin.php:59
+#, php-format
+msgid ""
+"To use ticketing Helpical plugin, you should put %s shortcode where ever "
+"you want"
+msgstr ""
+
+#: admin/admin.php:76
+msgid "Helpical Ticketing System Wordpress Plugin"
+msgstr ""
+
+#: admin/admin.php:81
+#, php-format
+msgid ""
+"A new version of helpical plugin has been released. Find the latest version "
+"%s here %s"
+msgstr ""
+
+#: admin/admin.php:83
+msgid ""
+"Your current communication with Helpical API is unsecure as there is not "
+"any active SSL on your Wordpress website."
+msgstr ""
+
+#: admin/admin.php:86
+msgid "Settings updated"
+msgstr ""
+
+#: admin/admin.php:92
+msgid "Save changes"
+msgstr ""
+
+#: admin/admin.php:93
+msgid "Update settings"
+msgstr ""
+
+#: admin/admin.php:101
+msgid "Your generated API secret key"
+msgstr ""
+
+#: admin/admin.php:107
+msgid "Full URL of your ticketing system"
+msgstr ""
+
+#: admin/admin.php:113
+msgid "Main color of your theme"
+msgstr ""
+
+#: admin/admin.php:122
+msgid ""
+"Real-time synchronization make your Wordpress website synced with Helpical "
+"Ticketing System configurations. This option needs more requests to "
+"Helpical API which burns your rate limits, and may decrease the time for "
+"operation as they will require real-time configuration data"
+msgstr ""
+
+#: admin/admin.php:124
+msgid ""
+"Click update button to sync configurations as what is defined in Helpical"
+msgstr ""
+
+#: functions.php:27 restApi/ticket.php:104 restApi/ticket.php:137
+#: restApi/ticket.php:187 restApi/ticket.php:232 restApi/ticket.php:263
+#: restApi/ticket.php:293
+msgid "Sorry, there's a problem in ticketing system. please contact admin"
+msgstr ""
+
+#: functions.php:220
+msgid "Open"
+msgstr ""
+
+#: functions.php:223
+msgid "Pending"
+msgstr ""
+
+#: functions.php:226
+msgid "Attendee answered"
+msgstr ""
+
+#: functions.php:229
+msgid "Owner answered"
+msgstr ""
+
+#: functions.php:232
+msgid "Closed"
+msgstr ""
+
+#: functions.php:248
+msgid ""
+"Please help us to imporove our service quality by telling us your "
+"satisfaction level."
+msgstr ""
+
+#: functions.php:251
+msgid "We will try to enhance your satisfaction in the next tickets."
+msgstr ""
+
+#: functions.php:254
+msgid "We are so sorry because we could not enhance your satisfaction."
+msgstr ""
+
+#: functions.php:257
+msgid "We are happy because we could enhance your satisfaction."
+msgstr ""
+
+#: restApi/ticket.php:92 restApi/ticket.php:125 restApi/ticket.php:158
+#: restApi/ticket.php:205 restApi/ticket.php:249 restApi/ticket.php:278
+msgid "You should sign into your account at first"
+msgstr ""
+
+#: restApi/ticket.php:122 restApi/ticket.php:155 restApi/ticket.php:202
+#: restApi/ticket.php:246 restApi/ticket.php:275
+msgid "Please fill all required fields"
+msgstr ""
+
+#: restApi/ticket.php:167 restApi/ticket.php:214
+#, php-format
+msgid "Allowed formats for attachment files are %s"
+msgstr ""
+
+#: restApi/ticket.php:169 restApi/ticket.php:216
+#, php-format
+msgid "Maximum size for each attachment is %s"
+msgstr ""
+
+#: restApi/ticket.php:189 restApi/ticket.php:234 restApi/ticket.php:265
+#: restApi/ticket.php:295 restApi/ticket.php:323
+msgid "Operation failed"
+msgstr ""
+
+#: templates/shortcode.php:8
+msgid "New ticket Form"
+msgstr ""
+
+#: templates/shortcode.php:13 templates/tickets.php:29
+msgid "Department"
+msgstr ""
+
+#: templates/shortcode.php:24
+msgid "Category"
+msgstr ""
+
+#: templates/shortcode.php:25
+msgid "Others"
+msgstr ""
+
+#: templates/shortcode.php:29 templates/shortcode.php:30
+#: templates/ticket.php:35
+msgid "Title"
+msgstr ""
+
+#: templates/shortcode.php:33 templates/ticket.php:39
+msgid "Message"
+msgstr ""
+
+#: templates/shortcode.php:37 templates/shortcode.php:44
+#: templates/ticket.php:43 templates/ticket.php:50
+msgid "Attachments"
+msgstr ""
+
+#: templates/shortcode.php:40 templates/ticket.php:46
+msgid "Choose file"
+msgstr ""
+
+#: templates/shortcode.php:48 templates/ticket.php:54
+#, php-format
+msgid "Attachments limits: maximum file size %s - allowed formats : %s"
+msgstr ""
+
+#: templates/shortcode.php:52 templates/tickets.php:67
+msgid "Importance"
+msgstr ""
+
+#: templates/shortcode.php:68
+msgid "Send"
+msgstr ""
+
+#: templates/shortcode.php:70
+msgid "Back to archive"
+msgstr ""
+
+#: templates/ticket.php:4 templates/tickets.php:21
+msgid "No tickets found"
+msgstr ""
+
+#: templates/ticket.php:12
+msgid "Ticket ID"
+msgstr ""
+
+#: templates/ticket.php:13
+msgid "Ticket title"
+msgstr ""
+
+#: templates/ticket.php:14
+msgid "Ticket status"
+msgstr ""
+
+#: templates/ticket.php:17
+msgid "Back"
+msgstr ""
+
+#: templates/ticket.php:18
+msgid "Reopen ticket"
+msgstr ""
+
+#: templates/ticket.php:18 templates/ticket.php:30
+msgid "Reply"
+msgstr ""
+
+#: templates/ticket.php:20
+msgid "Close"
+msgstr ""
+
+#: templates/ticket.php:36
+msgid "Reply to"
+msgstr ""
+
+#: templates/ticket.php:57
+msgid "Reply ticket"
+msgstr ""
+
+#: templates/ticket.php:59
+msgid "Cancel"
+msgstr ""
+
+#: templates/ticket.php:69
+msgid "Satisfaction"
+msgstr ""
+
+#: templates/ticket.php:101 templates/tickets.php:30
+msgid "Status"
+msgstr ""
+
+#: templates/ticket.php:108
+msgid "Download atachemnt"
+msgstr ""
+
+#: templates/tickets.php:4
+msgid "Tickets"
+msgstr ""
+
+#: templates/tickets.php:7
+msgid "New ticket"
+msgstr ""
+
+#: templates/tickets.php:27
+msgid "Ticket number"
+msgstr ""
+
+#: templates/tickets.php:28
+msgid "Category/Title"
+msgstr ""
+
+#: templates/tickets.php:43
+msgid "Low"
+msgstr ""
+
+#: templates/tickets.php:47
+msgid "Normal"
+msgstr ""
+
+#: templates/tickets.php:51
+msgid "High"
+msgstr ""
+
+#: templates/tickets.php:55
+msgid "Critical"
+msgstr ""
+
+#: templates/tickets.php:65
+msgid "Created at"
+msgstr ""
+
+#: templates/tickets.php:66
+msgid "Updated at"
+msgstr ""

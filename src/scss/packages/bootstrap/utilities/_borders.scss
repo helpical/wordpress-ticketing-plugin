@@ -1,0 +1,94 @@
+// stylelint-disable property-disallowed-list, declaration-no-important
+//
+// Border
+//
+.#{$prefix}border {
+    border: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-top {
+    border-top: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-right {
+    border-right: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-bottom {
+    border-bottom: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-left {
+    border-left: $border-width solid $border-color !important;
+}
+
+.#{$prefix}border-0 {
+    border: 0 !important;
+}
+
+.#{$prefix}border-top-0 {
+    border-top: 0 !important;
+}
+
+.#{$prefix}border-right-0 {
+    border-right: 0 !important;
+}
+
+.#{$prefix}border-bottom-0 {
+    border-bottom: 0 !important;
+}
+
+.#{$prefix}border-left-0 {
+    border-left: 0 !important;
+}
+
+.#{$prefix}border-white {
+    border-color: $white !important;
+}
+
+//
+// Border-radius
+//
+.#{$prefix}rounded-sm {
+    border-radius: $border-radius-sm !important;
+}
+
+.#{$prefix}rounded {
+    border-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-top {
+    border-top-left-radius: $border-radius !important;
+    border-top-right-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-right {
+    border-top-right-radius: $border-radius !important;
+    border-bottom-right-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-bottom {
+    border-bottom-right-radius: $border-radius !important;
+    border-bottom-left-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-left {
+    border-top-left-radius: $border-radius !important;
+    border-bottom-left-radius: $border-radius !important;
+}
+
+.#{$prefix}rounded-lg {
+    border-radius: $border-radius-lg !important;
+}
+
+.#{$prefix}rounded-circle {
+    border-radius: 50% !important;
+}
+
+.#{$prefix}rounded-pill {
+    border-radius: $rounded-pill !important;
+}
+
+.#{$prefix}rounded-0 {
+    border-radius: 0 !important;
+}

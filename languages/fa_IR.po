@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-04-25 12:06+0430\n"
+"PO-Revision-Date: 2021-04-25 12:06+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+#: admin/admin.php:3
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/admin.php:13
+msgid "Helpical"
+msgstr "هلپیکال"
+
+#: admin/admin.php:17
+msgid "Helpical settings"
+msgstr "تنظیمات هلپیکال"
+
+#: admin/admin.php:18
+msgid "Shortcode settings"
+msgstr "تنظیمات شورتکد"
+
+#: admin/admin.php:45
+msgid "API secret key"
+msgstr "کلید محرمانه API"
+
+#: admin/admin.php:46
+msgid "API URL"
+msgstr "آدرس ارتباط با API"
+
+#: admin/admin.php:47
+msgid "Color"
+msgstr "رنگ"
+
+#: admin/admin.php:48
+msgid "Real-time configuration synchronization"
+msgstr "به روز رسانی تنظیمات سیستم به صورت پویا (لحظه ای)"
+
+#: admin/admin.php:57
+msgid ""
+"There are some problems on your helpical system please check the parameters "
+"or contact helpical support"
+msgstr ""
+"مشکلی در سیستم تیکتینگ شما به وجود امده است لطفا پارامتر ها را بررسی کنید یا "
+"با پشتیبانی تماس بگیرید"
+
+#: admin/admin.php:59
+#, php-format
+msgid ""
+"To use ticketing Helpical plugin, you should put %s shortcode where ever you "
+"want"
+msgstr ""
+"برای استفاده از پلاگین تیکتینگ هلپیکال، کد کوتاه %s را در هر جایی که قصد "
+"نمایش بخش تیکتینگ را دارید قرار دهید"
+
+#: admin/admin.php:76
+#, fuzzy
+#| msgid "Helpical ticketing system wordpress plugin"
+msgid "Helpical Ticketing System Wordpress Plugin"
+msgstr "پلاگین وردپرس سیستم تیکتینگ هلپیکال"
+
+#: admin/admin.php:81
+#, php-format
+msgid ""
+"A new version of helpical plugin has been released. Find the latest version "
+"%s here %s"
+msgstr ""
+"ورژن جدیدی از پلاگین هلپیکال منتشر شده است. آخرین ورژن پلاگین را %s اینجا "
+"%s  می‌توانید پیدا کنید"
+
+#: admin/admin.php:83
+msgid ""
+"Your current communication with Helpical API is unsecure as there is not any "
+"active SSL on your Wordpress website."
+msgstr ""
+"ارتباط شما با API هلپیکال در حال حاضر ایمن نیست زیرا گواهینامه امنیتی SSL "
+"روی وب سایت شما فعال نمی باشد."
+
+#: admin/admin.php:86
+msgid "Settings updated"
+msgstr "تنظیمات به روز رسانی شد"
+
+#: admin/admin.php:92
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: admin/admin.php:93
+msgid "Update settings"
+msgstr "به روز رسانی تنظیمات"
+
+#: admin/admin.php:101
+msgid "Your generated API secret key"
+msgstr "کلید محرمانه API تولید شده توسط شما"
+
+#: admin/admin.php:107
+msgid "Full URL of your ticketing system"
+msgstr "آدرس سامانه تیکتینگ شما"
+
+#: admin/admin.php:113
+msgid "Main color of your theme"
+msgstr "رنگ اصلی قالب شما"
+
+#: admin/admin.php:122
+msgid ""
+"Real-time synchronization make your Wordpress website synced with Helpical "
+"Ticketing System configurations. This option needs more requests to Helpical "
+"API which burns your rate limits, and may decrease the time for operation as "
+"they will require real-time configuration data"
+msgstr ""
+"روش پویا در هر لحظه تنظیمات اعمال شده در سامانه تیکتینگ هلپیکال را مورد "
+"استفاده قرار خواهد داد. این موضوع در کنار به روز رسانی لحظه ای تنظیمات، از "
+"یک سو زمان بیشتری را برای انجام عملیات به خود اختصاص خواهد داد و از سوی دیگر "
+"منجر به استفاده بیشتر از نرخ درخواست مجاز شما برای ارتباط با API خواهد شد"
+
+#: admin/admin.php:124
+msgid ""
+"Click update button to sync configurations as what is defined in Helpical"
+msgstr ""
+"با کلیک کردن روی دکمه به روز رسانی، وردپرس را با تنظیمات انجام شده در "
+"هلپیکال به روز رسانی کنید"
+
+#: functions.php:27 restApi/ticket.php:104 restApi/ticket.php:137
+#: restApi/ticket.php:187 restApi/ticket.php:232 restApi/ticket.php:263
+#: restApi/ticket.php:293
+msgid "Sorry, there's a problem in ticketing system. please contact admin"
+msgstr ""
+"متاسفانه مشکلی در سیستم تیکتینگ به وجود آمده است. لطفاً با مدیر سایت تماس "
+"بگیرید"
+
+#: functions.php:220
+msgid "Open"
+msgstr "باز"
+
+#: functions.php:223
+msgid "Pending"
+msgstr "در حال بررسی"
+
+#: functions.php:226
+msgid "Attendee answered"
+msgstr "پاسخ داده شده"
+
+#: functions.php:229
+msgid "Owner answered"
+msgstr "پاسخ ایجاد کننده تیکت"
+
+#: functions.php:232
+msgid "Closed"
+msgstr "بسته شده"
+
+#: functions.php:248
+msgid ""
+"Please help us to imporove our service quality by telling us your "
+"satisfaction level."
+msgstr ""
+"لطفاً با اعلام میزان رضایتمندی خود ما را در ارائه خدمات بهتر یاری نمایید."
+
+#: functions.php:251
+msgid "We will try to enhance your satisfaction in the next tickets."
+msgstr "سعی خواهیم کرد تا در تیکت های بعدی، بیشتر رضایت شما را جلب نماییم."
+
+#: functions.php:254
+msgid "We are so sorry because we could not enhance your satisfaction."
+msgstr "متأسفیم که نتوانستیم رضایت شما را جلب نماییم."
+
+#: functions.php:257
+msgid "We are happy because we could enhance your satisfaction."
+msgstr "از اینکه توانستیم رضایت شما را جلب نماییم خوشحالیم."
+
+#: restApi/ticket.php:92 restApi/ticket.php:125 restApi/ticket.php:158
+#: restApi/ticket.php:205 restApi/ticket.php:249 restApi/ticket.php:278
+msgid "You should sign into your account at first"
+msgstr "ابتدا باید وارد حساب کاربری خود شوید"
+
+#: restApi/ticket.php:122 restApi/ticket.php:155 restApi/ticket.php:202
+#: restApi/ticket.php:246 restApi/ticket.php:275
+msgid "Please fill all required fields"
+msgstr "لطفاً گزینه های الزامی را تکمیل فرمایید"
+
+#: restApi/ticket.php:167 restApi/ticket.php:214
+#, php-format
+msgid "Allowed formats for attachment files are %s"
+msgstr "پسوندهای مجاز برای هر فایل الحاقی عبارتند از %s"
+
+#: restApi/ticket.php:169 restApi/ticket.php:216
+#, php-format
+msgid "Maximum size for each attachment is %s"
+msgstr "حداکثر اندازه هر فایل الحاقی %s می باشد"
+
+#: restApi/ticket.php:189 restApi/ticket.php:234 restApi/ticket.php:265
+#: restApi/ticket.php:295 restApi/ticket.php:323
+msgid "Operation failed"
+msgstr "عملیات ناموفق بود"
+
+#: templates/shortcode.php:8
+msgid "New ticket Form"
+msgstr "فرم ارسال تیکت جدید"
+
+#: templates/shortcode.php:13 templates/tickets.php:29
+msgid "Department"
+msgstr "دپارتمان"
+
+#: templates/shortcode.php:24
+msgid "Category"
+msgstr "دسته بندی"
+
+#: templates/shortcode.php:25
+msgid "Others"
+msgstr "سایر موارد"
+
+#: templates/shortcode.php:29 templates/shortcode.php:30
+#: templates/ticket.php:35
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/shortcode.php:33 templates/ticket.php:39
+msgid "Message"
+msgstr "پیام"
+
+#: templates/shortcode.php:37 templates/shortcode.php:44
+#: templates/ticket.php:43 templates/ticket.php:50
+msgid "Attachments"
+msgstr "فایل های الحاقی"
+
+#: templates/shortcode.php:40 templates/ticket.php:46
+msgid "Choose file"
+msgstr "انتخاب فایل"
+
+#: templates/shortcode.php:48 templates/ticket.php:54
+#, php-format
+msgid "Attachments limits: maximum file size %s - allowed formats : %s"
+msgstr "محدودیت فایل های الحاقی: حداکثر اندازه فایل %s - فرمت های مجاز %s"
+
+#: templates/shortcode.php:52 templates/tickets.php:67
+msgid "Importance"
+msgstr "اهمیت"
+
+#: templates/shortcode.php:68
+msgid "Send"
+msgstr "ارسال"
+
+#: templates/shortcode.php:70
+msgid "Back to archive"
+msgstr "بازگشت به آرشیو تیکت ها"
+
+#: templates/ticket.php:4 templates/tickets.php:21
+msgid "No tickets found"
+msgstr "هیچ تیکتی پیدا نشد"
+
+#: templates/ticket.php:12
+msgid "Ticket ID"
+msgstr "شناسه تیکت"
+
+#: templates/ticket.php:13
+msgid "Ticket title"
+msgstr "عنوان تیکت"
+
+#: templates/ticket.php:14
+msgid "Ticket status"
+msgstr "وضعیت تیکت"
+
+#: templates/ticket.php:17
+msgid "Back"
+msgstr "بازگشت"
+
+#: templates/ticket.php:18
+msgid "Reopen ticket"
+msgstr "باز کردن دوباره تیکت"
+
+#: templates/ticket.php:18 templates/ticket.php:30
+msgid "Reply"
+msgstr "پاسخ"
+
+#: templates/ticket.php:20
+msgid "Close"
+msgstr "بستن"
+
+#: templates/ticket.php:36
+msgid "Reply to"
+msgstr "در پاسخ به"
+
+#: templates/ticket.php:57
+msgid "Reply ticket"
+msgstr "پاسخ دادن به تیکت"
+
+#: templates/ticket.php:59
+msgid "Cancel"
+msgstr "لغو"
+
+#: templates/ticket.php:69
+msgid "Satisfaction"
+msgstr "میزان رضایت"
+
+#: templates/ticket.php:101 templates/tickets.php:30
+msgid "Status"
+msgstr "وضعیت"
+
+#: templates/ticket.php:108
+msgid "Download atachemnt"
+msgstr "دانلود فایل الحاقی"
+
+#: templates/tickets.php:4
+msgid "Tickets"
+msgstr "تیکت ها"
+
+#: templates/tickets.php:7
+msgid "New ticket"
+msgstr "تیکت جدید"
+
+#: templates/tickets.php:27
+msgid "Ticket number"
+msgstr "شماره تیکت"
+
+#: templates/tickets.php:28
+msgid "Category/Title"
+msgstr "دسته بندی/عنوان"
+
+#: templates/tickets.php:43
+msgid "Low"
+msgstr "پایین"
+
+#: templates/tickets.php:47
+msgid "Normal"
+msgstr "عادی"
+
+#: templates/tickets.php:51
+msgid "High"
+msgstr "بالا"
+
+#: templates/tickets.php:55
+msgid "Critical"
+msgstr "بحرانی"
+
+#: templates/tickets.php:65
+msgid "Created at"
+msgstr "ایجاد شده در"
+
+#: templates/tickets.php:66
+msgid "Updated at"
+msgstr "به روز رسانی شده در"
+
+#~ msgid "link"
+#~ msgstr "لینک"
+
+#~ msgid "New status"
+#~ msgstr "وضعیت جدید"

@@ -1,0 +1,160 @@
+@import "variables";
+@import "larger";
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e2ylyi') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e2ylyi') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e2ylyi##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.#{$prefix}icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$prefix}icon-send {
+    &:before {
+        content: $icon-send;
+    }
+}
+
+.#{$prefix}icon-ticketplus {
+    &:before {
+        content: $icon-ticketplus;
+    }
+}
+
+.#{$prefix}icon-upload {
+    &:before {
+        content: $icon-upload;
+    }
+}
+
+.#{$prefix}icon-unread {
+    &:before {
+        content: $icon-unread;
+    }
+}
+
+.#{$prefix}icon-incoming {
+    &:before {
+        content: $icon-incoming;
+    }
+}
+
+.#{$prefix}icon-outgoing {
+    &:before {
+        content: $icon-outgoing;
+    }
+}
+
+.#{$prefix}icon-plus {
+    &:before {
+        content: $icon-plus;
+    }
+}
+
+.#{$prefix}icon-read {
+    &:before {
+        content: $icon-read;
+    }
+}
+
+.#{$prefix}icon-ticket {
+    &:before {
+        content: $icon-ticket;
+    }
+}
+
+.#{$prefix}icon-timeplus {
+    &:before {
+        content: $icon-timeplus;
+    }
+}
+
+.#{$prefix}icon-timeupdate {
+    &:before {
+        content: $icon-timeupdate;
+    }
+}
+
+.#{$prefix}icon-level4 {
+    &:before {
+        content: $icon-level4;
+        color: #df0000;
+    }
+}
+
+.#{$prefix}icon-level1 .path1 {
+    &:before {
+        content: $icon-level1-path1;
+        color: rgb(1, 218, 1);
+    }
+}
+
+.#{$prefix}icon-level1 .path2 {
+    &:before {
+        content: $icon-level1-path2;
+        margin-left: -1em;
+        color: rgb(223, 223, 223);
+    }
+}
+
+.#{$prefix}icon-level2 .path1 {
+    &:before {
+        content: $icon-level2-path1;
+        color: rgb(10, 136, 207);
+    }
+}
+
+.#{$prefix}icon-level2 .path2 {
+    &:before {
+        content: $icon-level2-path2;
+        margin-left: -1em;
+        color: rgb(223, 223, 223);
+    }
+}
+
+.#{$prefix}icon-level3 .path1 {
+    &:before {
+        content: $icon-level3-path1;
+        color: rgb(250, 161, 22);
+    }
+}
+
+.#{$prefix}icon-level3 .path2 {
+    &:before {
+        content: $icon-level3-path2;
+        margin-left: -1em;
+        color: rgb(223, 223, 223);
+    }
+}
+
+.#{$prefix}icon-printer {
+    &:before {
+        content: $icon-printer;
+    }
+}
+
+.#{$prefix}icon-replay {
+    &:before {
+        content: $icon-replay;
+    }
+}
+
+.#{$prefix}icon-cross {
+    &:before {
+        content: $icon-cross;
+    }
+}

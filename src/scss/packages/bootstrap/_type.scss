@@ -1,0 +1,46 @@
+.#{$prefix}h1,
+.#{$prefix}h2,
+.#{$prefix}h3,
+.#{$prefix}h4,
+.#{$prefix}h5,
+.#{$prefix}h6 {
+    margin-bottom: 0;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+}
+
+.#{$prefix}h1 {
+    font-size: $h1-font-size;
+}
+
+.#{$prefix}h2 {
+    font-size: $h2-font-size;
+}
+
+.#{$prefix}h3 {
+    font-size: $h3-font-size;
+}
+
+.#{$prefix}h4 {
+    font-size: $h4-font-size;
+}
+
+.#{$prefix}h5 {
+    font-size: $h5-font-size;
+}
+
+.#{$prefix}h6 {
+    font-size: $h6-font-size;
+}
+
+.#{$prefix}hr {
+    margin-top: $hr-margin-y;
+    margin-bottom: $hr-margin-y;
+    border: 0;
+    border-top: $hr-border-width solid $hr-border-color;
+    box-sizing: content-box; // 1
+    height: 0; // 1
+    overflow: visible; // 2
+}
