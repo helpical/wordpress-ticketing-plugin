@@ -1,3 +1,4 @@
+
 <img src="https://github.com/helpical/wordpress-ticketing-plugin/blob/master/assets/images/helpical-wordpress.png" alt="Helpical Wordpress Plugin">
 
 # Introduction
